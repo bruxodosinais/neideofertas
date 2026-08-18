@@ -9,7 +9,7 @@ window.NEIDE_CONFIG = {
   LINK_GRUPO: "https://chat.whatsapp.com/CBeY6meyQLGH6VydxszYlq?s=cl&p=i&ilr=4&amv=2",
 
   // ID do Meta Pixel (Business Suite > Fontes de dados)
-  PIXEL_ID: "SEU_PIXEL_ID",
+  PIXEL_ID: "1721566055565718",
 
   // Vagas abertas neste lote
   LOTE: 20,
