@@ -6,7 +6,7 @@
 window.NEIDE_CONFIG = {
 
   // Link de convite do grupo (WhatsApp > Grupo > Convidar via link)
-  LINK_GRUPO: "https://chat.whatsapp.com/CBeY6meyQLGH6VydxszYlq?s=cl&p=i&ilr=4&amv=2",
+  LINK_GRUPO: "https://ofertasdasraneide.promos.app.br/r/grupos",
 
   // ID do Meta Pixel (Business Suite > Fontes de dados)
   PIXEL_ID: "1721566055565718",
