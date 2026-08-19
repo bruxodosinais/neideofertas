@@ -1,23 +1,21 @@
 /* ═══════════════════════════════════════════════════════════
    CONFIGURAÇÃO — o único arquivo que você precisa editar.
-   Salve, suba pro Vercel, pronto.
    ═══════════════════════════════════════════════════════════ */
 
 window.NEIDE_CONFIG = {
 
-  // Link de convite do grupo (WhatsApp > Grupo > Convidar via link)
-  LINK_GRUPO: "https://ofertasdasraneide.promos.app.br/r/grupos",
+  // Link de convite do grupo
+  LINK_GRUPO: "https://chat.whatsapp.com/COLE_AQUI",
 
-  // ID do Meta Pixel (Business Suite > Fontes de dados)
+  // ID do Meta Pixel
   PIXEL_ID: "1721566055565718",
 
-  // Vagas abertas neste lote
-  LOTE: 20,
+  // ── Contador de vagas ──────────────────────────────────
+  VAGAS_INICIAL: 17,   // onde começa
+  VAGAS_PISO:     3,   // onde trava (nunca chega a zero)
+  INTERVALO_MIN: 22,   // segundos — mínimo entre quedas
+  INTERVALO_MAX: 55,   // segundos — máximo entre quedas
 
-  // Quantas já entraram — atualize conforme o grupo enche
-  PREENCHIDAS: 3,
-
-  // Deixe false até criar a rota /api/grupo-atual
   USAR_API: false
 
 };
