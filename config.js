@@ -13,8 +13,8 @@ window.NEIDE_CONFIG = {
   // ── Contador de vagas ──────────────────────────────────
   VAGAS_INICIAL: 17,   // onde começa
   VAGAS_PISO:     3,   // onde trava (nunca chega a zero)
-  INTERVALO_MIN: 16,   // segundos — mínimo entre quedas
-  INTERVALO_MAX: 40,   // segundos — máximo entre quedas
+  INTERVALO_MIN: 5,   // segundos — mínimo entre quedas
+  INTERVALO_MAX: 25,   // segundos — máximo entre quedas
 
   USAR_API: false
 
