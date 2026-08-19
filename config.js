@@ -5,7 +5,7 @@
 window.NEIDE_CONFIG = {
 
   // Link de convite do grupo
-  LINK_GRUPO: "https://chat.whatsapp.com/COLE_AQUI",
+  LINK_GRUPO: "https://ofertasdasraneide.promos.app.br/r/grupos",
 
   // ID do Meta Pixel
   PIXEL_ID: "1721566055565718",
@@ -13,8 +13,8 @@ window.NEIDE_CONFIG = {
   // ── Contador de vagas ──────────────────────────────────
   VAGAS_INICIAL: 17,   // onde começa
   VAGAS_PISO:     3,   // onde trava (nunca chega a zero)
-  INTERVALO_MIN: 22,   // segundos — mínimo entre quedas
-  INTERVALO_MAX: 55,   // segundos — máximo entre quedas
+  INTERVALO_MIN: 16,   // segundos — mínimo entre quedas
+  INTERVALO_MAX: 40,   // segundos — máximo entre quedas
 
   USAR_API: false
 
